@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".Fragment_my"
+android:orientation="vertical">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="200dp"
+            android:layout_height="160dp"
+            android:src="@drawable/ic_action_person"
+            />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:background="@android:color/holo_blue_bright"
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:gravity="center"
+        android:text="未登录"
+        android:textColor="@android:color/background_light"
+        android:textSize="30dp" />
+
+
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:drawableLeft="@drawable/ic_action_person"
+        android:drawablePadding="10dp"
+        android:textSize="20dp"
+        android:gravity="center_vertical"
+        android:text="个人信息" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:drawableLeft="@drawable/ic_action_find"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+        android:textSize="20dp"
+        android:text="收藏" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:background="@android:color/background_light"
+        android:drawableLeft="@drawable/ic_action_star"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+        android:text="投稿记录" />
+
+
+</LinearLayout>
+</LinearLayout>
